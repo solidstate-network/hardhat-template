@@ -2,6 +2,17 @@
   "name": "hardhat-waffle-template",
   "version": "0.0.0",
   "description": "TODO",
+  "keywords": [
+    "hardhat",
+    "waffle",
+    "solidity",
+    "smart-contracts",
+    "ethereum",
+    "ether",
+    "eth",
+    "buidler",
+    "wow"
+  ],
   "author": "TODO",
   "license": "TODO",
   "private": true,
