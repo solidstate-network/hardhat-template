@@ -1,4 +1,5 @@
 require('@nomiclabs/hardhat-waffle');
+require('hardhat-spdx-license-identifier');
 
 module.exports = {
   solidity: {
@@ -19,5 +20,10 @@ module.exports = {
         mnemonic: `${ process.env.MNEMONIC }`,
       },
     },
+  },
+
+  spdxLicenseIdentifier: {
+    overwrite: false,
+    runOnCompile: true,
   },
 };
