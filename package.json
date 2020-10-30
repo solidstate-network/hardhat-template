@@ -29,6 +29,7 @@
     "ethereum-waffle": "^3.1.1",
     "ethers": "^5.0.18",
     "hardhat": "^2.0.0",
+    "hardhat-gas-reporter": "^1.0.0",
     "hardhat-spdx-license-identifier": "^2.0.0"
   }
 }

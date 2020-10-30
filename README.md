@@ -33,3 +33,9 @@ Test contracts via Hardhat:
 ```bash
 yarn run hardhat test
 ```
+
+Activate gas usage reporting by setting the `REPORT_GAS` environment variable to `"true"`:
+
+```bash
+REPORT_GAS=true yarn run hardhat test
+```
