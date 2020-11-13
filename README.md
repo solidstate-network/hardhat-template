@@ -23,7 +23,7 @@ By default, Hardhat uses the Hardhat Network in-process.
 To use an external network via URL, set the `URL` environment variable and append commands with `--network generic`:
 
 ```bash
-URL="https://mainnet.infura.io/v3/[INFURA_KEY]" yarn run hardhat test --network generic
+URL="[NODE_URL]" yarn run hardhat test --network generic
 ```
 
 ### Testing

@@ -15,7 +15,7 @@ module.exports = {
 
   networks: {
     generic: {
-      // set URL for external network, such as Infura
+      // set URL for external network
       url: `${ process.env.URL }`,
       accounts: {
         mnemonic: `${ process.env.MNEMONIC }`,
