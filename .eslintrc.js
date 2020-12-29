@@ -53,6 +53,13 @@ module.exports = {
       'error',
       'always',
     ],
+    'template-curly-spacing': [
+      'error',
+      'always',
+    ],
+    'no-template-curly-in-string': [
+      'error',
+    ],
     'key-spacing': [
       'error',
       {
