@@ -45,3 +45,11 @@ Generate a code coverage report using `solidity-coverage`:
 ```bash
 yarn run hardhat coverage
 ```
+
+### Documentation
+
+A documentation site is output on contract compilation to the `docgen` directory.  It can also be generated manually:
+
+```bash
+yarn run hardhat docgen
+```

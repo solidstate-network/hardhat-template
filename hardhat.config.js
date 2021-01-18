@@ -1,4 +1,5 @@
 require('@nomiclabs/hardhat-waffle');
+require('hardhat-docgen');
 require('hardhat-gas-reporter');
 require('hardhat-spdx-license-identifier');
 require('solidity-coverage');
@@ -22,6 +23,11 @@ module.exports = {
         mnemonic: `${ process.env.MNEMONIC }`,
       },
     },
+  },
+
+  docgen: {
+    runOnCompile: true,
+    clear: true,
   },
 
   gasReporter: {
