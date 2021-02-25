@@ -1,6 +1,6 @@
 # TODO
 
-This repository was generated from a template or is the template itself.  For more information, see [docs/TEMPLATE.md](./docs/TEMPLATE.md).
+TODO: This repository was generated from a template or is the template itself.  To setup a new project, find all occurrences of "TODO" and replace with relevant text.
 
 ## Development
 
