@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 require('@nomiclabs/hardhat-waffle');
 require('hardhat-docgen');
 require('hardhat-gas-reporter');
@@ -17,8 +19,7 @@ module.exports = {
 
   networks: {
     generic: {
-      // set URL for external network
-      url: `${ process.env.URL }`,
+      url: `${ process.env.NODE_URL }`,
       accounts: {
         mnemonic: `${ process.env.MNEMONIC }`,
       },
