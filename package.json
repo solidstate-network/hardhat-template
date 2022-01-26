@@ -16,10 +16,6 @@
     "buidler",
     "wow"
   ],
-  "repository": {
-    "type": "git",
-    "url": "TODO"
-  },
   "scripts": {
     "prepare": "husky install",
     "prettier": "prettier --write --ignore-path .gitignore ."
