@@ -9,6 +9,14 @@ import Dotenv from 'dotenv';
 
 Dotenv.config();
 
+const {
+  NODE_URL_MAINNET,
+  NODE_URL_TESTNET,
+  PKEY_MAINNET,
+  PKEY_TESTNET,
+  REPORT_GAS,
+} = process.env;
+
 export default {
   solidity: {
     version: '0.8.11',
@@ -21,11 +29,14 @@ export default {
   },
 
   networks: {
-    generic: {
-      url: `${process.env.NODE_URL}`,
-      accounts: {
-        mnemonic: `${process.env.MNEMONIC}`,
-      },
+    mainnet: {
+      url: NODE_URL_MAINNET,
+      accounts: [PKEY_MAINNET],
+    },
+
+    testnet: {
+      url: NODE_URL_TESTNET,
+      accounts: [PKEY_TESTNET],
     },
   },
 
@@ -35,7 +46,7 @@ export default {
   },
 
   gasReporter: {
-    enabled: process.env.REPORT_GAS === 'true',
+    enabled: REPORT_GAS === 'true',
   },
 
   spdxLicenseIdentifier: {
