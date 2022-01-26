@@ -1,11 +1,13 @@
-require('dotenv').config();
+import '@nomiclabs/hardhat-waffle';
+import '@typechain/hardhat';
+import 'hardhat-docgen';
+import 'hardhat-gas-reporter';
+import 'hardhat-spdx-license-identifier';
+import 'solidity-coverage';
 
-require('@nomiclabs/hardhat-waffle');
-require('@typechain/hardhat');
-require('hardhat-docgen');
-require('hardhat-gas-reporter');
-require('hardhat-spdx-license-identifier');
-require('solidity-coverage');
+import Dotenv from 'dotenv';
+
+Dotenv.config();
 
 module.exports = {
   solidity: {
