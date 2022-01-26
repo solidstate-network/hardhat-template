@@ -1,6 +1,9 @@
 {
   "name": "TODO",
   "version": "0.0.0",
+  "private": true,
+  "author": "TODO",
+  "license": "TODO",
   "description": "TODO",
   "keywords": [
     "hardhat",
@@ -13,12 +16,17 @@
     "buidler",
     "wow"
   ],
-  "author": "TODO",
-  "license": "TODO",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "TODO"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts,sol,json,md}": [
+      "prettier --write"
+    ]
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
@@ -38,13 +46,5 @@
     "solidity-coverage": "^0.7.18",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.5"
-  },
-  "scripts": {
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.{js,ts,sol,json,md}": [
-      "prettier --write"
-    ]
   }
 }
