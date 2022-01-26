@@ -1,6 +1,8 @@
-# TODO
+# SolidState Smart Contract Project
 
-TODO: This repository was generated from a template or is the template itself. To setup a new project, find all occurrences of "TODO" and replace with relevant text.
+> Note: This repository was generated from a template or is the template itself. To set up a new project, set the missing data marked "TODO" in `package.json` and remove this notice.
+
+This project is built with [SolidState](https://github.com/solidstate-network). See the [solidstate-solidity](https://github.com/solidstate-network/solidstate-solidity) documentation for information about contract integration and testing.
 
 ## Development
 
@@ -21,8 +23,6 @@ Compile contracts via Hardhat:
 ```bash
 yarn run hardhat compile
 ```
-
-Note: This template comes with `@solidstate/contracts` and `@solidstate/spec` installed by default. For more information visit [solidstate/solidity](https://github.com/solidstate-network/solidstate-solidity).
 
 ### Networks
 
@@ -56,7 +56,7 @@ yarn run hardhat coverage
 
 ### Documentation
 
-A documentation site is output on contract compilation to the `docgen` directory. It can also be generated manually:
+A static documentation site can be generated using `hardhat-docgen`:
 
 ```bash
 yarn run hardhat docgen
