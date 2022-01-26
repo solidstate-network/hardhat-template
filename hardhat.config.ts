@@ -21,11 +21,14 @@ export default {
   },
 
   networks: {
-    generic: {
-      url: `${process.env.NODE_URL}`,
-      accounts: {
-        mnemonic: `${process.env.MNEMONIC}`,
-      },
+    mainnet: {
+      url: `${process.env.NODE_URL_MAINNET}`,
+      accounts: [`${process.env.PKEY_MAINNET}`],
+    },
+
+    testnet: {
+      url: `${process.env.NODE_URL_TESTNET}`,
+      accounts: [`${process.env.PKEY_TESTNET}`],
     },
   },
 
