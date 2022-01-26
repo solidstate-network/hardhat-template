@@ -1,6 +1,6 @@
 # TODO
 
-TODO: This repository was generated from a template or is the template itself.  To setup a new project, find all occurrences of "TODO" and replace with relevant text.
+TODO: This repository was generated from a template or is the template itself. To setup a new project, find all occurrences of "TODO" and replace with relevant text.
 
 ## Development
 
@@ -8,6 +8,12 @@ Install dependencies via Yarn:
 
 ```bash
 yarn install
+```
+
+Setup Husky to format code on commit:
+
+```bash
+yarn prepare
 ```
 
 Compile contracts via Hardhat:
@@ -48,7 +54,7 @@ yarn run hardhat coverage
 
 ### Documentation
 
-A documentation site is output on contract compilation to the `docgen` directory.  It can also be generated manually:
+A documentation site is output on contract compilation to the `docgen` directory. It can also be generated manually:
 
 ```bash
 yarn run hardhat docgen
