@@ -22,6 +22,8 @@ Compile contracts via Hardhat:
 yarn run hardhat compile
 ```
 
+Note: This template comes with `@solidstate/contracts` and `@solidstate/spec` installed by default. For more information visit [solidstate/solidity](https://github.com/solidstate-network/solidstate-solidity).
+
 ### Networks
 
 By default, Hardhat uses the Hardhat Network in-process.
