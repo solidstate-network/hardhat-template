@@ -28,7 +28,7 @@ module.exports = {
 
   docgen: {
     clear: true,
-    runOnCompile: true,
+    runOnCompile: false,
   },
 
   gasReporter: {
