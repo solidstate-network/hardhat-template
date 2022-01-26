@@ -9,7 +9,7 @@ import Dotenv from 'dotenv';
 
 Dotenv.config();
 
-module.exports = {
+export default {
   solidity: {
     version: '0.8.11',
     settings: {
