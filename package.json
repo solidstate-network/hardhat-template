@@ -21,7 +21,8 @@
     "url": "TODO"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prettier": "prettier --write --ignore-path .gitignore ."
   },
   "lint-staged": {
     "*.{js,ts,sol,json,md}": [
