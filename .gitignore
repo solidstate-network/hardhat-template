@@ -9,4 +9,6 @@ coverage.json
 
 docgen/
 
+typechain-types/
+
 .env

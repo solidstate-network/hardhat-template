@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 require('@nomiclabs/hardhat-waffle');
+require('@typechain/hardhat');
 require('hardhat-docgen');
 require('hardhat-gas-reporter');
 require('hardhat-spdx-license-identifier');
@@ -38,5 +39,9 @@ module.exports = {
   spdxLicenseIdentifier: {
     overwrite: false,
     runOnCompile: true,
+  },
+
+  typechain: {
+    alwaysGenerateOverloads: true,
   },
 };
