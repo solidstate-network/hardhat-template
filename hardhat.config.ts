@@ -31,7 +31,7 @@ export default {
 
   docgen: {
     clear: true,
-    runOnCompile: true,
+    runOnCompile: false,
   },
 
   gasReporter: {
