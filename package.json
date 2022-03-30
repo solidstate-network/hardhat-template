@@ -20,11 +20,6 @@
     "prepare": "husky install",
     "prettier": "prettier --write --ignore-path .gitignore ."
   },
-  "lint-staged": {
-    "*.{js,ts,sol,json,md}": [
-      "prettier --write"
-    ]
-  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-etherscan": "^3.0.3",
