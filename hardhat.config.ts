@@ -1,3 +1,4 @@
+import '@nomiclabs/hardhat-etherscan';
 import '@nomiclabs/hardhat-waffle';
 import '@typechain/hardhat';
 import 'hardhat-docgen';
@@ -10,6 +11,7 @@ import Dotenv from 'dotenv';
 Dotenv.config();
 
 const {
+  API_KEY_ETHERSCAN,
   NODE_URL_MAINNET,
   NODE_URL_TESTNET,
   PKEY_MAINNET,
@@ -43,6 +45,10 @@ export default {
   docgen: {
     clear: true,
     runOnCompile: false,
+  },
+
+  etherscan: {
+    apiKey: API_KEY_ETHERSCAN,
   },
 
   gasReporter: {

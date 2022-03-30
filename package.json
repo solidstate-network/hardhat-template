@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
     "@nomiclabs/hardhat-waffle": "^2.0.2",
     "@solidstate/contracts": "^0.0.29",
     "@solidstate/spec": "^0.0.29",

@@ -26,13 +26,14 @@ yarn run hardhat compile
 
 The Hardhat environment relies on the following environment variables. The `dotenv` package will attempt to read them from the `.env` and `.env.secret` files, if they are present.
 
-| Key                | Description                                                   |
-| ------------------ | ------------------------------------------------------------- |
-| `NODE_URL_MAINNET` | JSON-RPC node URL for `mainnet` network                       |
-| `NODE_URL_TESTNET` | JSON-RPC node URL for `testnet` network                       |
-| `PKEY_TESTNET`     | private key for test/development use on `testnet` network     |
-| `PKEY_MAINNET`     | private key for production use on `mainnet` network           |
-| `REPORT_GAS`       | if `true`, a gas report will be generated after running tests |
+| Key                 | Description                                                              |
+| ------------------- | ------------------------------------------------------------------------ |
+| `API_KEY_ETHERSCAN` | [Etherscan](https://etherscan.io//) API key for source code verification |
+| `NODE_URL_MAINNET`  | JSON-RPC node URL for `mainnet` network                                  |
+| `NODE_URL_TESTNET`  | JSON-RPC node URL for `testnet` network                                  |
+| `PKEY_TESTNET`      | private key for test/development use on `testnet` network                |
+| `PKEY_MAINNET`      | private key for production use on `mainnet` network                      |
+| `REPORT_GAS`        | if `true`, a gas report will be generated after running tests            |
 
 ### Networks
 
