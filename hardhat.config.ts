@@ -2,6 +2,7 @@ import '@nomicfoundation/hardhat-chai-matchers';
 import '@nomiclabs/hardhat-ethers';
 import '@nomiclabs/hardhat-etherscan';
 import '@typechain/hardhat';
+import 'hardhat-contract-sizer';
 import 'hardhat-docgen';
 import 'hardhat-gas-reporter';
 import 'hardhat-spdx-license-identifier';
@@ -41,6 +42,10 @@ export default {
       url: NODE_URL_TESTNET,
       accounts: [PKEY_TESTNET],
     },
+  },
+
+  contractSizer: {
+    runOnCompile: true,
   },
 
   docgen: {
