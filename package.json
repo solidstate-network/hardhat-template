@@ -25,6 +25,7 @@
     "@nomiclabs/hardhat-ethers": "^2.1.1",
     "@nomiclabs/hardhat-etherscan": "^3.1.0",
     "@solidstate/contracts": "^0.0.43",
+    "@solidstate/hardhat-accounts": "^1.0.0",
     "@solidstate/spec": "^0.0.43",
     "@typechain/ethers-v5": "^10.1.0",
     "@typechain/hardhat": "^6.1.3",

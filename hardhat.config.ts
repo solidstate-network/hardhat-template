@@ -1,4 +1,5 @@
 import '@nomicfoundation/hardhat-chai-matchers';
+import '@solidstate/hardhat-accounts';
 import '@nomiclabs/hardhat-ethers';
 import '@nomiclabs/hardhat-etherscan';
 import '@typechain/hardhat';
