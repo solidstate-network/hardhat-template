@@ -8,6 +8,7 @@ import 'hardhat-docgen';
 import 'hardhat-gas-reporter';
 import 'hardhat-spdx-license-identifier';
 import 'solidity-coverage';
+import { HardhatUserConfig } from 'hardhat/types';
 
 import Dotenv from 'dotenv';
 
@@ -22,7 +23,7 @@ const {
   REPORT_GAS,
 } = process.env;
 
-export default {
+const config: HardhatUserConfig = {
   solidity: {
     version: '0.8.17',
     settings: {
@@ -71,3 +72,5 @@ export default {
     alwaysGenerateOverloads: true,
   },
 };
+
+export default config;
