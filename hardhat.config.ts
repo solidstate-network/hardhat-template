@@ -37,12 +37,12 @@ const config: HardhatUserConfig = {
   networks: {
     mainnet: {
       url: NODE_URL_MAINNET,
-      accounts: [PKEY_MAINNET],
+      accounts: [`${PKEY_MAINNET}`],
     },
 
     testnet: {
       url: NODE_URL_TESTNET,
-      accounts: [PKEY_TESTNET],
+      accounts: [`${PKEY_TESTNET}`],
     },
   },
 
