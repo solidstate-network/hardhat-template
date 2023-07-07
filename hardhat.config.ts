@@ -1,7 +1,7 @@
 import '@nomicfoundation/hardhat-chai-matchers';
-import '@solidstate/hardhat-accounts';
-import '@nomiclabs/hardhat-ethers';
+import '@nomicfoundation/hardhat-ethers';
 import '@nomiclabs/hardhat-etherscan';
+import '@solidstate/hardhat-accounts';
 import '@typechain/hardhat';
 import 'hardhat-contract-sizer';
 import 'hardhat-docgen';
