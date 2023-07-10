@@ -67,10 +67,6 @@ const config: HardhatUserConfig = {
     overwrite: false,
     runOnCompile: true,
   },
-
-  typechain: {
-    alwaysGenerateOverloads: true,
-  },
 };
 
 export default config;
