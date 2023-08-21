@@ -1,7 +1,7 @@
 import '@nomicfoundation/hardhat-chai-matchers';
-import '@solidstate/hardhat-accounts';
-import '@nomiclabs/hardhat-ethers';
+import '@nomicfoundation/hardhat-ethers';
 import '@nomiclabs/hardhat-etherscan';
+import '@solidstate/hardhat-accounts';
 import '@typechain/hardhat';
 import 'hardhat-contract-sizer';
 import 'hardhat-docgen';
@@ -25,7 +25,7 @@ const {
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: '0.8.17',
+    version: '0.8.21',
     settings: {
       optimizer: {
         enabled: true,
@@ -37,12 +37,12 @@ const config: HardhatUserConfig = {
   networks: {
     mainnet: {
       url: NODE_URL_MAINNET,
-      accounts: [PKEY_MAINNET],
+      accounts: [`${PKEY_MAINNET}`],
     },
 
     testnet: {
       url: NODE_URL_TESTNET,
-      accounts: [PKEY_TESTNET],
+      accounts: [`${PKEY_TESTNET}`],
     },
   },
 
@@ -66,10 +66,6 @@ const config: HardhatUserConfig = {
   spdxLicenseIdentifier: {
     overwrite: false,
     runOnCompile: true,
-  },
-
-  typechain: {
-    alwaysGenerateOverloads: true,
   },
 };
 
