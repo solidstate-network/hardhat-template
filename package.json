@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "prettier": "prettier --write --ignore-path .gitignore ."
+    "prettier": "prettier --write --plugin=prettier-plugin-solidity ."
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
