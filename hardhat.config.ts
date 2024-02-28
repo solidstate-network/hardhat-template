@@ -1,6 +1,6 @@
 import '@nomicfoundation/hardhat-chai-matchers';
 import '@nomicfoundation/hardhat-ethers';
-import '@nomiclabs/hardhat-etherscan';
+import '@nomicfoundation/hardhat-verify';
 import '@solidstate/hardhat-accounts';
 import '@typechain/hardhat';
 import 'hardhat-contract-sizer';
