@@ -2,8 +2,6 @@
   "name": "TODO",
   "version": "0.0.0",
   "private": true,
-  "author": "TODO",
-  "license": "TODO",
   "description": "TODO",
   "keywords": [
     "hardhat",
@@ -16,6 +14,8 @@
     "buidler",
     "wow"
   ],
+  "license": "TODO",
+  "author": "TODO",
   "scripts": {
     "prepare": "husky",
     "prettier": "prettier --write ."
@@ -43,6 +43,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.5.1",
     "prettier": "^3.5.3",
+    "prettier-plugin-packagejson": "^2.5.11",
     "prettier-plugin-solidity": "^2.0.0",
     "solidity-coverage": "^0.8.15",
     "ts-node": "^10.9.2",
