@@ -3,5 +3,5 @@
   "singleQuote": true,
   "trailingComma": "all",
   "bracketSpacing": true,
-  "plugins": ["prettier-plugin-solidity"]
+  "plugins": ["prettier-plugin-packagejson", "prettier-plugin-solidity"]
 }
