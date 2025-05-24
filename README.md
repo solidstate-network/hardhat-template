@@ -6,22 +6,22 @@ This project is built with [Solidstate](https://github.com/solidstate-network). 
 
 ## Development
 
-Install dependencies via Yarn:
+Install dependencies via Pnpm:
 
 ```bash
-yarn install
+pnpm install
 ```
 
 Setup Husky to format code on commit:
 
 ```bash
-yarn prepare
+pnpm prepare
 ```
 
 Compile contracts via Hardhat:
 
 ```bash
-yarn run hardhat compile
+pnpm hardhat compile
 ```
 
 The Hardhat environment relies on the following environment variables. The `dotenv` package will attempt to read them from the `.env` and `.env.secret` files, if they are present.
@@ -44,19 +44,19 @@ By default, Hardhat uses the Hardhat Network in-process. Two additional networks
 Test contracts via Hardhat:
 
 ```bash
-yarn run hardhat test
+pnpm hardhat test
 ```
 
 Activate gas usage reporting by setting the `REPORT_GAS` environment variable to `"true"`:
 
 ```bash
-REPORT_GAS=true yarn run hardhat test
+REPORT_GAS=true pnpm hardhat test
 ```
 
 Generate a code coverage report using `solidity-coverage`:
 
 ```bash
-yarn run hardhat coverage
+pnpm hardhat coverage
 ```
 
 ### Documentation
@@ -64,5 +64,5 @@ yarn run hardhat coverage
 A static documentation site can be generated using `hardhat-docgen`:
 
 ```bash
-yarn run hardhat docgen
+pnpm hardhat docgen
 ```
