@@ -16,6 +16,7 @@
   ],
   "license": "TODO",
   "author": "TODO",
+  "type": "module",
   "scripts": {
     "prepare": "husky",
     "prettier": "prettier --write ."
