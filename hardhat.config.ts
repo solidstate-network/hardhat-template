@@ -3,14 +3,13 @@ import '@nomicfoundation/hardhat-ethers';
 import '@nomicfoundation/hardhat-verify';
 import '@solidstate/hardhat-accounts';
 import '@typechain/hardhat';
+import Dotenv from 'dotenv';
 import 'hardhat-contract-sizer';
 import 'hardhat-docgen';
 import 'hardhat-gas-reporter';
 import 'hardhat-spdx-license-identifier';
-import 'solidity-coverage';
 import { HardhatUserConfig } from 'hardhat/types';
-
-import Dotenv from 'dotenv';
+import 'solidity-coverage';
 
 Dotenv.config();
 
