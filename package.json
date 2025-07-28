@@ -18,8 +18,7 @@
   "author": "TODO",
   "type": "module",
   "scripts": {
-    "prepare": "husky",
-    "prettier": "prettier --write ."
+    "prepare": "husky"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-ethers": "^4.0.0-next.25",
