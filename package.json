@@ -39,7 +39,7 @@
     "chai": "^5.2.1",
     "dotenv": "^17.2.1",
     "ethers": "^6.15.0",
-    "hardhat": "3.0.0-next.21",
+    "hardhat": "^3.0.0-next.25",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
