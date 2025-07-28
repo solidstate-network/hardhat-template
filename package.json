@@ -17,8 +17,7 @@
   "license": "TODO",
   "author": "TODO",
   "scripts": {
-    "prepare": "husky",
-    "prettier": "prettier --write ."
+    "prepare": "husky"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.9",
