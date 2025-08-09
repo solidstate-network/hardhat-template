@@ -46,10 +46,6 @@ const config: HardhatUserConfig = {
     },
   },
 
-  contractSizer: {
-    runOnCompile: true,
-  },
-
   verify: {
     etherscan: {
       apiKey: configVariable('API_KEY_ETHERSCAN'),
