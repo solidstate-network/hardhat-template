@@ -1,28 +1,26 @@
-import '@nomicfoundation/hardhat-chai-matchers';
-import '@nomicfoundation/hardhat-ethers';
-import '@nomicfoundation/hardhat-verify';
-import '@solidstate/hardhat-accounts';
-import '@typechain/hardhat';
+import HardhatEthers from '@nomicfoundation/hardhat-ethers';
+import HardhatEthersChaiMatchers from '@nomicfoundation/hardhat-ethers-chai-matchers';
+import HardhatTypechain from '@nomicfoundation/hardhat-typechain';
+import HardhatVerify from '@nomicfoundation/hardhat-verify';
+import HardhatAccounts from '@solidstate/hardhat-accounts';
+import HardhatContractSizer from '@solidstate/hardhat-contract-sizer';
+import HardhatLicenseIdentifier from '@solidstate/hardhat-license-identifier';
 import Dotenv from 'dotenv';
-import 'hardhat-contract-sizer';
-import 'hardhat-docgen';
-import 'hardhat-gas-reporter';
-import 'hardhat-spdx-license-identifier';
-import { HardhatUserConfig } from 'hardhat/types';
-import 'solidity-coverage';
+import { configVariable, type HardhatUserConfig } from 'hardhat/config';
 
 Dotenv.config();
 
-const {
-  API_KEY_ETHERSCAN,
-  NODE_URL_MAINNET,
-  NODE_URL_TESTNET,
-  PKEY_MAINNET,
-  PKEY_TESTNET,
-  REPORT_GAS,
-} = process.env;
-
 const config: HardhatUserConfig = {
+  plugins: [
+    HardhatEthers,
+    HardhatEthersChaiMatchers,
+    HardhatTypechain,
+    HardhatVerify,
+    HardhatAccounts,
+    HardhatContractSizer,
+    HardhatLicenseIdentifier,
+  ],
+
   solidity: {
     version: '0.8.29',
     settings: {
@@ -36,34 +34,25 @@ const config: HardhatUserConfig = {
 
   networks: {
     mainnet: {
-      url: NODE_URL_MAINNET,
-      accounts: [`${PKEY_MAINNET}`],
+      type: 'http',
+      url: configVariable('NODE_URL_MAINNET'),
+      accounts: [configVariable('PKEY_MAINNET')],
     },
 
     testnet: {
-      url: NODE_URL_TESTNET,
-      accounts: [`${PKEY_TESTNET}`],
+      type: 'http',
+      url: configVariable('NODE_URL_TESTNET'),
+      accounts: [configVariable('PKEY_TESTNET')],
     },
   },
 
-  contractSizer: {
-    runOnCompile: true,
+  verify: {
+    etherscan: {
+      apiKey: configVariable('API_KEY_ETHERSCAN'),
+    },
   },
 
-  docgen: {
-    clear: true,
-    runOnCompile: false,
-  },
-
-  etherscan: {
-    apiKey: API_KEY_ETHERSCAN,
-  },
-
-  gasReporter: {
-    enabled: REPORT_GAS === 'true',
-  },
-
-  spdxLicenseIdentifier: {
+  licenseIdentifier: {
     overwrite: false,
     runOnCompile: true,
   },
