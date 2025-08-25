@@ -46,23 +46,3 @@ Test contracts via Hardhat:
 ```bash
 pnpm hardhat test
 ```
-
-Activate gas usage reporting by setting the `REPORT_GAS` environment variable to `"true"`:
-
-```bash
-REPORT_GAS=true pnpm hardhat test
-```
-
-Generate a code coverage report using `solidity-coverage`:
-
-```bash
-pnpm hardhat coverage
-```
-
-### Documentation
-
-A static documentation site can be generated using `hardhat-docgen`:
-
-```bash
-pnpm hardhat docgen
-```
