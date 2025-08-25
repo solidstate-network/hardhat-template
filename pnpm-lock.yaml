@@ -9,29 +9,29 @@ importers:
   .:
     devDependencies:
       '@nomicfoundation/hardhat-ethers':
-        specifier: ^4.0.0-next.29
-        version: 4.0.0-next.29(hardhat@3.0.0-next.29)
+        specifier: ^4.0.0
+        version: 4.0.0(hardhat@3.0.1)
       '@nomicfoundation/hardhat-ethers-chai-matchers':
-        specifier: ^3.0.0-next.29
-        version: 3.0.0-next.29(@nomicfoundation/hardhat-ethers@4.0.0-next.29(hardhat@3.0.0-next.29))(chai@5.2.1)(ethers@6.15.0)(hardhat@3.0.0-next.29)
+        specifier: ^3.0.0
+        version: 3.0.0(@nomicfoundation/hardhat-ethers@4.0.0(hardhat@3.0.1))(chai@5.3.3)(ethers@6.15.0)(hardhat@3.0.1)
       '@nomicfoundation/hardhat-typechain':
-        specifier: ^3.0.0-next.29
-        version: 3.0.0-next.29(@nomicfoundation/hardhat-ethers@4.0.0-next.29(hardhat@3.0.0-next.29))(ethers@6.15.0)(hardhat@3.0.0-next.29)(typescript@5.9.2)
+        specifier: ^3.0.0
+        version: 3.0.0(@nomicfoundation/hardhat-ethers@4.0.0(hardhat@3.0.1))(ethers@6.15.0)(hardhat@3.0.1)(typescript@5.9.2)
       '@nomicfoundation/hardhat-verify':
-        specifier: ^3.0.0-next.29
-        version: 3.0.0-next.29(hardhat@3.0.0-next.29)
+        specifier: ^3.0.0
+        version: 3.0.0(hardhat@3.0.1)
       '@solidstate/contracts':
-        specifier: ^1.0.0-next.0
-        version: 1.0.0-next.0
+        specifier: ^1.0.0-next.1
+        version: 1.0.0-next.1
       '@solidstate/hardhat-accounts':
-        specifier: ^2.0.0-next.0
-        version: 2.0.0-next.0(@nomicfoundation/hardhat-utils@3.0.0-next.29)(ethers@6.15.0)(hardhat@3.0.0-next.29)(viem@2.30.1(typescript@5.9.2)(zod@3.25.74))
+        specifier: ^2.0.0
+        version: 2.0.0(@nomicfoundation/hardhat-utils@3.0.0)(ethers@6.15.0)(hardhat@3.0.1)(viem@2.30.1(typescript@5.9.2)(zod@3.25.74))
       '@solidstate/hardhat-contract-sizer':
-        specifier: ^3.0.0-next.1
-        version: 3.0.0-next.1(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)
+        specifier: ^3.0.0
+        version: 3.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)
       '@solidstate/hardhat-license-identifier':
-        specifier: ^3.0.0-next.1
-        version: 3.0.0-next.1(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)
+        specifier: ^3.0.0
+        version: 3.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^5.2.2
         version: 5.2.2(prettier@3.6.2)
@@ -48,11 +48,11 @@ importers:
         specifier: ^10.0.10
         version: 10.0.10
       '@types/node':
-        specifier: ^24.2.1
-        version: 24.2.1
+        specifier: ^24.3.0
+        version: 24.3.0
       chai:
-        specifier: ^5.2.1
-        version: 5.2.1
+        specifier: ^5.3.3
+        version: 5.3.3
       dotenv:
         specifier: ^17.2.1
         version: 17.2.1
@@ -60,14 +60,14 @@ importers:
         specifier: ^6.15.0
         version: 6.15.0
       hardhat:
-        specifier: ^3.0.0-next.29
-        version: 3.0.0-next.29
+        specifier: ^3.0.1
+        version: 3.0.1
       husky:
         specifier: ^9.1.7
         version: 9.1.7
       knip:
-        specifier: ^5.62.0
-        version: 5.62.0(@types/node@24.2.1)(typescript@5.9.2)
+        specifier: ^5.63.0
+        version: 5.63.0(@types/node@24.3.0)(typescript@5.9.2)
       lint-staged:
         specifier: ^16.1.5
         version: 16.1.5
@@ -386,8 +386,8 @@ packages:
   '@kwsites/promise-deferred@1.1.1':
     resolution: {integrity: sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==}
 
-  '@napi-rs/wasm-runtime@1.0.1':
-    resolution: {integrity: sha512-KVlQ/jgywZpixGCKMNwxStmmbYEMyokZpCf2YuIChhfJA2uqfAKNEM8INz7zzTo55iEXfBhIIs3VqYyqzDLj8g==}
+  '@napi-rs/wasm-runtime@1.0.3':
+    resolution: {integrity: sha512-rZxtMsLwjdXkMUGC3WwsPwLNVqVqnTJT6MNIB6e+5fhMcSCPP0AOsNWuMQ5mdCq6HNjs/ZeWAEchpqeprqBD2Q==}
 
   '@noble/ciphers@1.3.0':
     resolution: {integrity: sha512-2I0gnIVPtfnMw9ee9h1dJG7tp81+8Ob3OJb3Mv37rx5L40/b0i7djjCVvGOVqc9AEIQyvyu1i6ypKdFw8R8gQw==}
@@ -467,39 +467,39 @@ packages:
     resolution: {integrity: sha512-yXMIpISsZcrlCziY5fwd9s8iJ7Rs9AD+UyHKKzSazKevMvJRlLbdCVqoEld9QZRwWo9Pc8AyAUmS9Xix+ZQiRQ==}
     engines: {node: '>= 20'}
 
-  '@nomicfoundation/hardhat-errors@3.0.0-next.29':
-    resolution: {integrity: sha512-pAlbVIV0Zi1YRHu1S7iVzqKD6RBtRt7f4AndnrMzEyc1LkcN03lELLbgDR3WfYpeUB/7zar5LcCBBfqS9tcXlA==}
+  '@nomicfoundation/hardhat-errors@3.0.0':
+    resolution: {integrity: sha512-nYV5Z4Z5+xzL08GonNokPA3WbLngUB4H3XBmR9dnoLqM5ls90LmIuJdZy2dzxI0LbeG2pDT2r8wAJIBAStq1iA==}
 
-  '@nomicfoundation/hardhat-ethers-chai-matchers@3.0.0-next.29':
-    resolution: {integrity: sha512-Byk721FUeZ9BxtX4TFIxbWnAkFsUZVp5DF0D7pkLJb8+qR5fK/2ShN6DHUcp2aaUClWsKAGj6mJwDuKdlADL0Q==}
+  '@nomicfoundation/hardhat-ethers-chai-matchers@3.0.0':
+    resolution: {integrity: sha512-IhDOUXv5+7cH1b8X5TX2qr2jLsMPjboFH/jXh7j090PbYWCRGwzdG3Olzzmd1X1WWpkw16nnz91+6pXuLpbQkw==}
     peerDependencies:
-      '@nomicfoundation/hardhat-ethers': ^4.0.0-next.29
+      '@nomicfoundation/hardhat-ethers': ^4.0.0
       chai: ^5.1.2
       ethers: ^6.14.0
-      hardhat: ^3.0.0-next.29
+      hardhat: ^3.0.0
 
-  '@nomicfoundation/hardhat-ethers@4.0.0-next.29':
-    resolution: {integrity: sha512-LbPhCLuNsbwQXyOBfRWOPde07cT4c5pcx6SJyulMZmUU8gUWPspvKueRGBqJI6H4xAr1G6gpk5egt0Mlro0NAg==}
+  '@nomicfoundation/hardhat-ethers@4.0.0':
+    resolution: {integrity: sha512-xLu5s9BJDufI9mP2I9IZYYAmDfoSCNZsZkeu+lw2fflpnqxYmg0NROlrJrYAIwGiY3VRc/JCuh19IQDKF/S1pA==}
     peerDependencies:
-      hardhat: ^3.0.0-next.29
+      hardhat: ^3.0.0
 
-  '@nomicfoundation/hardhat-typechain@3.0.0-next.29':
-    resolution: {integrity: sha512-qk+dJCjJRC8doecsQNg2ARrQf7GsfEtp7OE/SdLO7tPpAuDzYZsms1u+fJczErIFQclezDzD3NccRUbnu3RBfQ==}
+  '@nomicfoundation/hardhat-typechain@3.0.0':
+    resolution: {integrity: sha512-wwPNrb+a/IrvMpj94VsXyKM64T0SJFXsmmqCHnGfh/iAdZmX5J9ILBLeDUE9JW5rL6ove8TB7OcXZkGp8unB4w==}
     peerDependencies:
-      '@nomicfoundation/hardhat-ethers': ^4.0.0-next.29
+      '@nomicfoundation/hardhat-ethers': ^4.0.0
       ethers: ^6.14.0
-      hardhat: ^3.0.0-next.29
+      hardhat: ^3.0.0
 
-  '@nomicfoundation/hardhat-utils@3.0.0-next.29':
-    resolution: {integrity: sha512-0zcvoHDanCgjBLX25jlmpiqqa+RV85gBQyFaGIBuoTuxi+Sl7fEb+kLIOgu6q5ul1GYqXo4ZHakdOtT7vb5+gA==}
+  '@nomicfoundation/hardhat-utils@3.0.0':
+    resolution: {integrity: sha512-dpzumbxM69ny/BSVd/8jquZO3wjg61e+S81DJPJwQ7naeZNai1r9gYuxT65VgKKTYZG/xKwrP36tJvB+gRtBrg==}
 
-  '@nomicfoundation/hardhat-verify@3.0.0-next.29':
-    resolution: {integrity: sha512-B58Cujn86ODBJExaSfbuhBqOMWtfJtUX8Q8Znvb7Zc43jw/8+tKaSI5N8I4jmqi7UYALGFibf5zcE7WkGulWMw==}
+  '@nomicfoundation/hardhat-verify@3.0.0':
+    resolution: {integrity: sha512-s2BB81poG+ZAyUKRI5xc4Url/hEnqhd8LxLz6HtlISJl4+/4kKjR6O8QnN/DsJNlcg1eCutnyNKmK95gVXJY4Q==}
     peerDependencies:
-      hardhat: ^3.0.0-next.29
+      hardhat: ^3.0.0
 
-  '@nomicfoundation/hardhat-zod-utils@3.0.0-next.29':
-    resolution: {integrity: sha512-gtxSaurMWajqtcUnmGxIbbQtulpwtI+Ih/R/p9ss6Od65tSyFnROiNbXJDY/KMCvlkBRB9uZGW4+yZmjM7h2ow==}
+  '@nomicfoundation/hardhat-zod-utils@3.0.0':
+    resolution: {integrity: sha512-xAi+45+V82pZZ9QGDEiii0wp+SXXH/8hS7/pk7S0gOG6h29gPuE42yek8wh3Ff0M+DrsB/RKZjcezmdwH5a6mQ==}
     peerDependencies:
       zod: ^3.23.8
 
@@ -538,98 +538,98 @@ packages:
     resolution: {integrity: sha512-q4n32/FNKIhQ3zQGGw5CvPF6GTvDCpYwIf7bEY/dZTZbgfDsHyjJwURxUJf3VQuuJj+fDIFl4+KkBVbw4Ef6jA==}
     engines: {node: '>= 12'}
 
-  '@oxc-resolver/binding-android-arm-eabi@11.6.0':
-    resolution: {integrity: sha512-UJTf5uZs919qavt9Btvbzkr3eaUu4d+FXBri8AB2BtOezriaTTUvArab2K9fdACQ4yFggTD5ews1l19V/6SW2Q==}
+  '@oxc-resolver/binding-android-arm-eabi@11.6.2':
+    resolution: {integrity: sha512-b1h87/Nv5QPiT2xXg7RiSzJ0HsKSMf1U8vj6cUKdEDD1+KhDaXEH9xffB5QE54Df3SM4+wrYVy9NREil7/0C/Q==}
     cpu: [arm]
     os: [android]
 
-  '@oxc-resolver/binding-android-arm64@11.6.0':
-    resolution: {integrity: sha512-v17j1WLEAIlyc+6JOWPXcky7dkU3fN8nHTP8KSK05zkkBO0t28R3Q0udmNBiJtVSnw4EFB/fy/3Mu2ItpG6bVQ==}
+  '@oxc-resolver/binding-android-arm64@11.6.2':
+    resolution: {integrity: sha512-iIFsbWOQ42VJqOH0PkNs2+IcIjkmO7T+Gr27XDVXmaIWz3dkVYzYRlCtqGJOMIrjyUD52BtVXjej5s51i9Lgmg==}
     cpu: [arm64]
     os: [android]
 
-  '@oxc-resolver/binding-darwin-arm64@11.6.0':
-    resolution: {integrity: sha512-ZrU+qd5AKe8s7PZDLCHY23UpbGn1RAkcNd4JYjOTnX22XEjSqLvyC6pCMngTyfgGVJ4zXFubBkRzt/k3xOjNlQ==}
+  '@oxc-resolver/binding-darwin-arm64@11.6.2':
+    resolution: {integrity: sha512-Lt/6pfDy2rtoxGmwFQOp4a9GxIW0CEUSQYofW1eQBpy/JpGM/AJgLTsg2nmgszODJpBOPO19GCIlzSZ7Et5cGg==}
     cpu: [arm64]
     os: [darwin]
 
-  '@oxc-resolver/binding-darwin-x64@11.6.0':
-    resolution: {integrity: sha512-qBIlX0X0RSxQHcXQnFpBGKxrDVtj7OdpWFGmrcR3NcndVjZ/wJRPST5uTTM83NfsHyuUeOi/vRZjmDrthvhnSQ==}
+  '@oxc-resolver/binding-darwin-x64@11.6.2':
+    resolution: {integrity: sha512-UmGEeXk4/E3ubBWgoehVEQSBTEpl+UjZqY55sB+/5NHYFPMxY6PgG8y7dGZhyWPvwVW/pS/drnG3gptAjwF8cg==}
     cpu: [x64]
     os: [darwin]
 
-  '@oxc-resolver/binding-freebsd-x64@11.6.0':
-    resolution: {integrity: sha512-tTyMlHHNhbkq/oEP/fM8hPZ6lqntHIz6EfOt577/lslrwxC5a/ii0lOOHjPuQtkurpyUBWYPs7Z17EgrZulc4Q==}
+  '@oxc-resolver/binding-freebsd-x64@11.6.2':
+    resolution: {integrity: sha512-p0Aj5aQKmyVamAtRio7Ct0Woh/iElvMxhAlbSWqJ9J/GH7lPG8H4R/iHWjURz+2iYPywqJICR8Eu1GDSApnzfA==}
     cpu: [x64]
     os: [freebsd]
 
-  '@oxc-resolver/binding-linux-arm-gnueabihf@11.6.0':
-    resolution: {integrity: sha512-tYinHy5k9/rujo21mG2jZckJJD7fsceNDl5HOl/eh5NPjSt2vXQv181PVKeITw3+3i+gI1d666w5EtgpiCegRA==}
+  '@oxc-resolver/binding-linux-arm-gnueabihf@11.6.2':
+    resolution: {integrity: sha512-hDAF4FAkGxZsJCvutoBQ21LKcpUrvq5qAj3FpBTIzBaeIpupe6z0kHF9oIeTF8DJiLj4uEejaZXXtOSfJY50+A==}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-arm-musleabihf@11.6.0':
-    resolution: {integrity: sha512-aOlGlSiT9fBgSyiIWvSxbyzaBx3XrgCy6UJRrqBkIvMO9D7W90JmV0RsiLua4w43zJSSrfuQQWqmFCwgIib3Iw==}
+  '@oxc-resolver/binding-linux-arm-musleabihf@11.6.2':
+    resolution: {integrity: sha512-LTUs3PG9O3YjGPbguiM/fhaoWr19Yu/vqkBKXgvUo2Zpa7InHzZzurMQU9BAPr6A7gnIrKQ3W61h+RhQfSuUGQ==}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-arm64-gnu@11.6.0':
-    resolution: {integrity: sha512-EZ/OuxZA9qQoAANBDb9V4krfYXU3MC+LZ9qY+cE0yMYMIxm7NT5AdR0OaRQqfa3tWIbina1VF7FaMR6rpKvmlA==}
+  '@oxc-resolver/binding-linux-arm64-gnu@11.6.2':
+    resolution: {integrity: sha512-VBZZ/5uYiFs+09h1royv78GAEPPy5Bsro53hPWMlJL/E9pPibaj3fCzZEAnrKSzVpvwf7+QSc5w7ZUrX3xAKpg==}
     cpu: [arm64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-arm64-musl@11.6.0':
-    resolution: {integrity: sha512-NpF7sID4NnPetpqDk2eOu6TPUt381Qlpos8nGDcSkAluqSsSGFOPfETEB5VbJeqNVQbepEQX9mOxZygFpW0+nA==}
+  '@oxc-resolver/binding-linux-arm64-musl@11.6.2':
+    resolution: {integrity: sha512-x+LooeNXy3hhvDT7q29jLjh914OYX9YnrQbGT3ogep5EY/LLbUiG3LV8XSrWRqXD5132gea9SOYxmcpF9i6xTQ==}
     cpu: [arm64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-ppc64-gnu@11.6.0':
-    resolution: {integrity: sha512-Sqn9Ha4rxCCpjpfkFi9f9y9phsaBnseaKw+JqHgBQoNMToe+/20A1jwIu9OX+484UuLpduM+wLydgngjnoi7Dg==}
+  '@oxc-resolver/binding-linux-ppc64-gnu@11.6.2':
+    resolution: {integrity: sha512-+CluEbUpAaKvcNREZtUUiunqzo5o0/qp+6xoFkbDAwNhWIw1mtWCg1Di++Fa053Cah/Rx+dRMQteANoMBGCxxg==}
     cpu: [ppc64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-riscv64-gnu@11.6.0':
-    resolution: {integrity: sha512-eFoNcPhImp1FLAQf5U3Nlph4WNWEsdWohSThSTtKPrX+jhPZiVsj3iBC9gjaRwq2Ez4QhP1x7/PSL6mtKnS6rw==}
+  '@oxc-resolver/binding-linux-riscv64-gnu@11.6.2':
+    resolution: {integrity: sha512-OKWK/QvC6gECaeCNjfhuj0yiqMIisS0ewCRAmgT2pyxDwkNWgSm2wli+Tj/gpLjua2HjFDnDEcg0/dOoO6+xQg==}
     cpu: [riscv64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-riscv64-musl@11.6.0':
-    resolution: {integrity: sha512-WQw3CT10aJg7SIc/X1QPrh6lTx2wOLg5IaCu/+Mqlxf1nZBEW3+tV/+y3PzXG0MCRhq7FDTiHaW8MBVAwBineQ==}
+  '@oxc-resolver/binding-linux-riscv64-musl@11.6.2':
+    resolution: {integrity: sha512-YtQ3hLvhVzan3boR44C0qu/jiTanaBAL9uTqs/S2tzOLfpO2PoTDbQDgADvOqYJDTJkOGiofJC2E1lJcRmpbXQ==}
     cpu: [riscv64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-s390x-gnu@11.6.0':
-    resolution: {integrity: sha512-p5qcPr/EtGJ2PpeeArL3ifZU/YljWLypeu38+e19z2dyPv8Aoby8tjM+D1VTI8+suMwTkseyove/uu6zIUiqRw==}
+  '@oxc-resolver/binding-linux-s390x-gnu@11.6.2':
+    resolution: {integrity: sha512-pcX/ih9QHrEWliiXJdZoX/bnfOlr5E0eOWSG2ew5U1HntGket/1AcdcA4UH3MQU/TrOLxxiKhGzeZv+fwewmmA==}
     cpu: [s390x]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-x64-gnu@11.6.0':
-    resolution: {integrity: sha512-/9M/ieoY5v54k3UjtF9Vw43WQ4bBfed+qRL1uIpFbZcO2qi5aXwVMYnjSd/BoaRtDs5JFV9iOjzHwpw0zdOYZA==}
+  '@oxc-resolver/binding-linux-x64-gnu@11.6.2':
+    resolution: {integrity: sha512-LFYSgeYW11u4cQXzgIGthqCRAoLvl0IqbIMGeJLVt1tD7yrpTukfQynMzwP3vuTK5hmWgYc7NfK6G5+Zv/75hw==}
     cpu: [x64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-x64-musl@11.6.0':
-    resolution: {integrity: sha512-HMtWWHTU7zbwceTFZPAPMMhhWR1nNO2OR60r6i55VprCMvttTWPQl7uLP0AUtAPoU9B/2GqP48rzOuaaKhHnYw==}
+  '@oxc-resolver/binding-linux-x64-musl@11.6.2':
+    resolution: {integrity: sha512-IE13zwhg+XX9FVQHADbIe6RB2MgQeqyKdGyH67meGPgqCbLqT41K9qAm0k2uDlSswjLK8nhNe5Z+hhopBKzRRg==}
     cpu: [x64]
     os: [linux]
 
-  '@oxc-resolver/binding-wasm32-wasi@11.6.0':
-    resolution: {integrity: sha512-rDAwr2oqmnG/6LSZJwvO3Bmt/RC3/Q6myyaUmg3P7GhZDyFPrWJONB7NFhPwU2Q4JIpA73ST4LBdhzmGxMTmrw==}
+  '@oxc-resolver/binding-wasm32-wasi@11.6.2':
+    resolution: {integrity: sha512-6nNW/wOKrptS9Rebf83aHvIsIiNcXOEWwUmhMR/4MHrH07zbcptBoZQcWO6362B9Y2lMN7dIF9v7brQcNDs63A==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
 
-  '@oxc-resolver/binding-win32-arm64-msvc@11.6.0':
-    resolution: {integrity: sha512-COzy8weljZo2lObWl6ZzW6ypDx1v1rtLdnt7JPjTUARikK1gMzlz9kouQhCtCegNFILx2L2oWw7714fnchqujw==}
+  '@oxc-resolver/binding-win32-arm64-msvc@11.6.2':
+    resolution: {integrity: sha512-YDR9UBOlKfFvWhVlyvNSlZjJ+B5kDpDn5K5s69JKW+Ke5ZYupVPTJPZ3GIMjbgj54fJQNFW+BiT4dL/EUGOHVQ==}
     cpu: [arm64]
     os: [win32]
 
-  '@oxc-resolver/binding-win32-ia32-msvc@11.6.0':
-    resolution: {integrity: sha512-p2tMRdi91CovjLBApDPD/uEy1/5r7U6iVkfagLYDytgvj6nJ1EAxLUdXbhoe6//50IvDC/5I51nGCdxmOUiXlQ==}
+  '@oxc-resolver/binding-win32-ia32-msvc@11.6.2':
+    resolution: {integrity: sha512-8MqToY82sKT4po6bfb71LTiWW4PYXy/WNnzFIpkO88O1TtZV8ZsZ1kSeSwFazbqhV8H8nnxyJemqXNIqhtqNfw==}
     cpu: [ia32]
     os: [win32]
 
-  '@oxc-resolver/binding-win32-x64-msvc@11.6.0':
-    resolution: {integrity: sha512-p6b9q5TACd/y39kDK2HENXqd4lThoVrTkxdvizqd5/VwyHcoSd0cDcIEhHpxvfjc83VsODCBgB/zcjp//TlaqA==}
+  '@oxc-resolver/binding-win32-x64-msvc@11.6.2':
+    resolution: {integrity: sha512-y/xXcOwP9kp+3zRC8PiG5E4VMJeW59gwwRyxzh6DyMrKlcfikMFnuEbC2ZV0+mOffg7pkOOMKlNRK2aJC8gzkA==}
     cpu: [x64]
     os: [win32]
 
@@ -662,14 +662,14 @@ packages:
   '@solidity-parser/parser@0.20.1':
     resolution: {integrity: sha512-58I2sRpzaQUN+jJmWbHfbWf9AKfzqCI8JAdFB0vbyY+u8tBRcuTt9LxzasvR0LGQpcRv97eyV7l61FQ3Ib7zVw==}
 
-  '@solidstate/contracts@1.0.0-next.0':
-    resolution: {integrity: sha512-+VBingBrssEUIyccDw4v7NC2YyWTcwbSVqrjWzv5kxUAPrSbm+7+M5YWE53MzqQwupjjNwM+XUTJ9emhCyM34A==}
+  '@solidstate/contracts@1.0.0-next.1':
+    resolution: {integrity: sha512-fmQdlSbdyHkOd56u4YzqrA+k3MXGrAQPvMQX4MhPLSofa0o3aWBcNYvTZX4EexogRyZADqYNZCg3f7Ma5rByRA==}
 
-  '@solidstate/hardhat-accounts@2.0.0-next.0':
-    resolution: {integrity: sha512-Vg9VpnsIq5Mn6WwsSGkoeTt4J9Z0UqVxlXJwXKTNI8kMKHu4fT78pd8ziThTA4plGRrjwg4reoRSmSXuWVnbsg==}
+  '@solidstate/hardhat-accounts@2.0.0':
+    resolution: {integrity: sha512-O1Nm/Wta6juo/N0ASun+up9A84AtMWODBq4gDTc5sVlCQjjGCeV6rQJHUfiQll6WefuEcJuW7mDduzdO4Fg8lQ==}
     peerDependencies:
       ethers: ^6.14.1
-      hardhat: ^3.0.0-next.6
+      hardhat: ^3.0.0
       viem: ^2.29.4
     peerDependenciesMeta:
       ethers:
@@ -677,29 +677,29 @@ packages:
       viem:
         optional: true
 
-  '@solidstate/hardhat-contract-sizer@3.0.0-next.1':
-    resolution: {integrity: sha512-ijp6Ux9wBaqq7qeKAsEtRtIVrUJYDxceGhsI0yEXzPPXnA4q2fL6qxyGsLw5c48XbY75+wlq1PZDw1G2hL2KSQ==}
+  '@solidstate/hardhat-contract-sizer@3.0.0':
+    resolution: {integrity: sha512-A4x5IQWOBqaZzzg2Xuy+ui/wBimx/yUdkY9qkkjqXJi5O5XMfV/3MJZcnqf4/LVNFcgxMz60+LNsJIpdIuCa1Q==}
     peerDependencies:
-      '@nomicfoundation/hardhat-utils': ^3.0.0-next.12
-      hardhat: ^3.0.0-next.4
+      '@nomicfoundation/hardhat-utils': ^3.0.0
+      hardhat: ^3.0.0
 
-  '@solidstate/hardhat-git@1.0.0-next.5':
-    resolution: {integrity: sha512-PurB2VLJpl0O4cJdvpIC6BXXaT5GYWs4bbKalbC6YgbG9zY5i5gTe5Mt4cQDyNBpXabWGamT4lh22zClqWF1Sw==}
+  '@solidstate/hardhat-git@1.0.0':
+    resolution: {integrity: sha512-dks7X4hQEd7LdcN3T9eTifU/17sehYkD7PEET6m0gRObrKOmzdKdgF+76PG6BjRBvo3bYEQb2w+QSQuXB7sOAA==}
     peerDependencies:
-      '@nomicfoundation/hardhat-utils': ^3.0.0-next.11
-      hardhat: ^3.0.0-next.6
+      '@nomicfoundation/hardhat-utils': ^3.0.0
+      hardhat: ^3.0.0
 
-  '@solidstate/hardhat-license-identifier@3.0.0-next.1':
-    resolution: {integrity: sha512-Zb35VrkLyUqyUz/Rmnt3SPcL2f0zu6BWiN42XaSkASq91XQpI1bEP7HCorTizaxTXN8wpipr9t9yymde5jBV+Q==}
+  '@solidstate/hardhat-license-identifier@3.0.0':
+    resolution: {integrity: sha512-hMkk8c4ray0bV5OmVtzevgIdi4vBhgW+wIaqyBHdDS7C7uraFlsJM3+BL4p4J5VujL0BDz2coOnlZ4tQQEufDw==}
     peerDependencies:
-      '@nomicfoundation/hardhat-utils': ^3.0.0-next.13
-      hardhat: ^3.0.0-next.4
+      '@nomicfoundation/hardhat-utils': ^3.0.0
+      hardhat: ^3.0.0
 
-  '@solidstate/hardhat-solidstate-utils@1.0.0-next.3':
-    resolution: {integrity: sha512-2YE6xzMiHq3ExLC9hQSDyOWmR2pS5g+jOGdMVZHZ7RrQgl3ZIzTIcD/yw9rjPORCM8k3GvPDhKcOB9TO5ype9A==}
+  '@solidstate/hardhat-solidstate-utils@1.0.0':
+    resolution: {integrity: sha512-11p/uOAQ7vsHmXenXEIa0e5UstUN0cI0iHF8TQNCBeUosv5QYeljmhSYX22uS8SUR7aRH2g3Nauq0eveJwHoJQ==}
     peerDependencies:
-      '@nomicfoundation/hardhat-utils': ^3.0.0-next.11
-      hardhat: ^3.0.0-next.6
+      '@nomicfoundation/hardhat-utils': ^3.0.0
+      hardhat: ^3.0.0
 
   '@streamparser/json-node@0.0.22':
     resolution: {integrity: sha512-sJT2ptNRwqB1lIsQrQlCoWk5rF4tif9wDh+7yluAGijJamAhrHGYpFB/Zg3hJeceoZypi74ftXk8DHzwYpbZSg==}
@@ -751,8 +751,8 @@ packages:
   '@types/node@22.7.5':
     resolution: {integrity: sha512-jML7s2NAzMWc//QSJ1a3prpk78cOPchGvXJsC3C6R6PSMoooztvRVQEz89gmBTBY1SPMaqo5teB4uNHPdetShQ==}
 
-  '@types/node@24.2.1':
-    resolution: {integrity: sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==}
+  '@types/node@24.3.0':
+    resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
   '@types/prettier@2.7.3':
     resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
@@ -821,8 +821,8 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
-  axios@1.10.0:
-    resolution: {integrity: sha512-/1xYAC4MP/HEG+3duIhFr4ZQXR4sQXOIe+o6sdqzeykGLx6Upp/1p8MHqhINOvGeP7xyNHe7tsiJByc4SSVUxw==}
+  axios@1.11.0:
+    resolution: {integrity: sha512-1Lx3WLFQWm3ooKDYZD1eXmoGO9fxYQjrycfHFC8P0sCfQVXyROp0p9PFWBehewBOdCwHc+f/b8I0fMto5eSfwA==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -856,8 +856,8 @@ packages:
     peerDependencies:
       chai: '>= 2.1.2 < 6'
 
-  chai@5.2.1:
-    resolution: {integrity: sha512-5nFxhUrX0PqtyogoYOA8IPswy5sZFTOsBFl/9bNsmDLgsxYTzSZQJDPppDnZPTQbzSEm0hqGjWPzRemQCYbD6A==}
+  chai@5.3.3:
+    resolution: {integrity: sha512-4zNhdJD/iOjSH0A05ea+Ke6MU5mmpQcbQsSOkgdaUMJ9zTlDTD/GYlwohmIE2u0gaxHYiVHEn1Fw9mZ/ktJWgw==}
     engines: {node: '>=18'}
 
   chalk@2.4.2:
@@ -867,10 +867,6 @@ packages:
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
-
-  chalk@5.4.1:
-    resolution: {integrity: sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   chalk@5.5.0:
     resolution: {integrity: sha512-1tm8DTaJhPBG3bIkVeZt1iZM9GfSX2lzOeDVZH9R9ffRHpmHvxZ/QhgQH/aDTkswQVt+YHdXAdS/In/30OjCbg==}
@@ -1063,12 +1059,12 @@ packages:
       debug:
         optional: true
 
-  form-data@4.0.3:
-    resolution: {integrity: sha512-qsITQPfmvMOSAdeyZ+12I1c+CKSstAFAwu+97zrnWAbIr5u8wfsExUzCesVLC8NgHuRUqNN4Zy6UPWUTRGslcA==}
+  form-data@4.0.4:
+    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
     engines: {node: '>= 6'}
 
-  formatly@0.2.4:
-    resolution: {integrity: sha512-lIN7GpcvX/l/i24r/L9bnJ0I8Qn01qijWpQpDDvTLL29nKqSaJJu4h20+7VJ6m2CAhQ2/En/GbxDiHCzq/0MyA==}
+  formatly@0.3.0:
+    resolution: {integrity: sha512-9XNj/o4wrRFyhSMJOvsuyMwy8aUfBaZ1VrqHVfohyXf0Sw0e+yfKG+xZaY3arGCOMdwFsqObtzVOc1gU9KiT9w==}
     engines: {node: '>=18.3.0'}
     hasBin: true
 
@@ -1120,8 +1116,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  hardhat@3.0.0-next.29:
-    resolution: {integrity: sha512-q27mtkvXKCwTCwSyldeRpMXgRJzY/Y/iiY4b0vBXs2iC7ay07CGkLB6DpX9JvFJIqfL1z0tlcwMmCHaoNwkIhg==}
+  hardhat@3.0.1:
+    resolution: {integrity: sha512-IronMout14GKbg8RTbW2b5HAkcztCBLs9ZldssUoDiM2rXyf6LBOS126/dFPntclILeT7ik3uGpWcoJ+2DtXpg==}
     hasBin: true
 
   has-flag@3.0.0:
@@ -1224,8 +1220,8 @@ packages:
   jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
 
-  knip@5.62.0:
-    resolution: {integrity: sha512-hfTUVzmrMNMT1khlZfAYmBABeehwWUUrizLQoLamoRhSFkygsGIXWx31kaWKBgEaIVL77T3Uz7IxGvSw+CvQ6A==}
+  knip@5.63.0:
+    resolution: {integrity: sha512-xIFIi/uvLW0S/AQqwggN6UVRKBOQ1Ya7jBfQzllswZplr2si5C616/5wCcWc/eoi1PLJgPgJQLxqYq1aiYpqwg==}
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
@@ -1332,8 +1328,8 @@ packages:
       typescript:
         optional: true
 
-  oxc-resolver@11.6.0:
-    resolution: {integrity: sha512-Yj3Wy+zLljtFL8ByKOljaPhiXjJWVe875p5MHaT5VAHoEmzeg1BuswM8s/E7ErpJ3s0fsXJfUYJE4v1bl7N65g==}
+  oxc-resolver@11.6.2:
+    resolution: {integrity: sha512-9lXwNQUzgPs5UgjKig5+EINESHYJCFsRQLzPyjWLc7sshl6ZXvXPiQfEGqUIs2fsd9SdV/jYmL7IuaK43cL0SA==}
 
   p-map@7.0.3:
     resolution: {integrity: sha512-VkndIv2fIB99swvQoA65bm+fsmt6UNdGeIB0oxBs+WhAhdh08QA04JXpI7rbB9r08/nkbysKoya9rtDERYOYMA==}
@@ -1922,7 +1918,7 @@ snapshots:
 
   '@kwsites/promise-deferred@1.1.1': {}
 
-  '@napi-rs/wasm-runtime@1.0.1':
+  '@napi-rs/wasm-runtime@1.0.3':
     dependencies:
       '@emnapi/core': 1.4.5
       '@emnapi/runtime': 1.4.5
@@ -2001,56 +1997,56 @@ snapshots:
       '@nomicfoundation/edr-linux-x64-musl': 0.12.0-next.4
       '@nomicfoundation/edr-win32-x64-msvc': 0.12.0-next.4
 
-  '@nomicfoundation/hardhat-errors@3.0.0-next.29':
+  '@nomicfoundation/hardhat-errors@3.0.0':
     dependencies:
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
+      '@nomicfoundation/hardhat-utils': 3.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@nomicfoundation/hardhat-ethers-chai-matchers@3.0.0-next.29(@nomicfoundation/hardhat-ethers@4.0.0-next.29(hardhat@3.0.0-next.29))(chai@5.2.1)(ethers@6.15.0)(hardhat@3.0.0-next.29)':
+  '@nomicfoundation/hardhat-ethers-chai-matchers@3.0.0(@nomicfoundation/hardhat-ethers@4.0.0(hardhat@3.0.1))(chai@5.3.3)(ethers@6.15.0)(hardhat@3.0.1)':
     dependencies:
-      '@nomicfoundation/hardhat-errors': 3.0.0-next.29
-      '@nomicfoundation/hardhat-ethers': 4.0.0-next.29(hardhat@3.0.0-next.29)
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
+      '@nomicfoundation/hardhat-errors': 3.0.0
+      '@nomicfoundation/hardhat-ethers': 4.0.0(hardhat@3.0.1)
+      '@nomicfoundation/hardhat-utils': 3.0.0
       '@types/chai-as-promised': 8.0.2
-      chai: 5.2.1
-      chai-as-promised: 8.0.1(chai@5.2.1)
+      chai: 5.3.3
+      chai-as-promised: 8.0.1(chai@5.3.3)
       deep-eql: 5.0.2
       ethers: 6.15.0
-      hardhat: 3.0.0-next.29
+      hardhat: 3.0.1
     transitivePeerDependencies:
       - supports-color
 
-  '@nomicfoundation/hardhat-ethers@4.0.0-next.29(hardhat@3.0.0-next.29)':
+  '@nomicfoundation/hardhat-ethers@4.0.0(hardhat@3.0.1)':
     dependencies:
-      '@nomicfoundation/hardhat-errors': 3.0.0-next.29
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
+      '@nomicfoundation/hardhat-errors': 3.0.0
+      '@nomicfoundation/hardhat-utils': 3.0.0
       debug: 4.4.1
       ethereum-cryptography: 2.2.1
       ethers: 6.15.0
-      hardhat: 3.0.0-next.29
+      hardhat: 3.0.1
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
 
-  '@nomicfoundation/hardhat-typechain@3.0.0-next.29(@nomicfoundation/hardhat-ethers@4.0.0-next.29(hardhat@3.0.0-next.29))(ethers@6.15.0)(hardhat@3.0.0-next.29)(typescript@5.9.2)':
+  '@nomicfoundation/hardhat-typechain@3.0.0(@nomicfoundation/hardhat-ethers@4.0.0(hardhat@3.0.1))(ethers@6.15.0)(hardhat@3.0.1)(typescript@5.9.2)':
     dependencies:
-      '@nomicfoundation/hardhat-errors': 3.0.0-next.29
-      '@nomicfoundation/hardhat-ethers': 4.0.0-next.29(hardhat@3.0.0-next.29)
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
-      '@nomicfoundation/hardhat-zod-utils': 3.0.0-next.29(zod@3.25.74)
+      '@nomicfoundation/hardhat-errors': 3.0.0
+      '@nomicfoundation/hardhat-ethers': 4.0.0(hardhat@3.0.1)
+      '@nomicfoundation/hardhat-utils': 3.0.0
+      '@nomicfoundation/hardhat-zod-utils': 3.0.0(zod@3.25.74)
       '@typechain/ethers-v6': 0.5.1(ethers@6.15.0)(typechain@8.3.2(typescript@5.9.2))(typescript@5.9.2)
       debug: 4.4.1
       ethers: 6.15.0
-      hardhat: 3.0.0-next.29
+      hardhat: 3.0.1
       typechain: 8.3.2(typescript@5.9.2)
       zod: 3.25.74
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  '@nomicfoundation/hardhat-utils@3.0.0-next.29':
+  '@nomicfoundation/hardhat-utils@3.0.0':
     dependencies:
       '@streamparser/json-node': 0.0.22
       debug: 4.4.1
@@ -2063,24 +2059,24 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nomicfoundation/hardhat-verify@3.0.0-next.29(hardhat@3.0.0-next.29)':
+  '@nomicfoundation/hardhat-verify@3.0.0(hardhat@3.0.1)':
     dependencies:
       '@ethersproject/abi': 5.8.0
-      '@nomicfoundation/hardhat-errors': 3.0.0-next.29
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
-      '@nomicfoundation/hardhat-zod-utils': 3.0.0-next.29(zod@3.25.74)
+      '@nomicfoundation/hardhat-errors': 3.0.0
+      '@nomicfoundation/hardhat-utils': 3.0.0
+      '@nomicfoundation/hardhat-zod-utils': 3.0.0(zod@3.25.74)
       cbor2: 1.12.0
-      chalk: 5.4.1
+      chalk: 5.5.0
       debug: 4.4.1
-      hardhat: 3.0.0-next.29
+      hardhat: 3.0.1
       semver: 7.7.2
       zod: 3.25.74
     transitivePeerDependencies:
       - supports-color
 
-  '@nomicfoundation/hardhat-zod-utils@3.0.0-next.29(zod@3.25.74)':
+  '@nomicfoundation/hardhat-zod-utils@3.0.0(zod@3.25.74)':
     dependencies:
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
+      '@nomicfoundation/hardhat-utils': 3.0.0
       zod: 3.25.74
     transitivePeerDependencies:
       - supports-color
@@ -2120,63 +2116,63 @@ snapshots:
       '@nomicfoundation/solidity-analyzer-linux-x64-musl': 0.1.2
       '@nomicfoundation/solidity-analyzer-win32-x64-msvc': 0.1.2
 
-  '@oxc-resolver/binding-android-arm-eabi@11.6.0':
+  '@oxc-resolver/binding-android-arm-eabi@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-android-arm64@11.6.0':
+  '@oxc-resolver/binding-android-arm64@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-darwin-arm64@11.6.0':
+  '@oxc-resolver/binding-darwin-arm64@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-darwin-x64@11.6.0':
+  '@oxc-resolver/binding-darwin-x64@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-freebsd-x64@11.6.0':
+  '@oxc-resolver/binding-freebsd-x64@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-arm-gnueabihf@11.6.0':
+  '@oxc-resolver/binding-linux-arm-gnueabihf@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-arm-musleabihf@11.6.0':
+  '@oxc-resolver/binding-linux-arm-musleabihf@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-arm64-gnu@11.6.0':
+  '@oxc-resolver/binding-linux-arm64-gnu@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-arm64-musl@11.6.0':
+  '@oxc-resolver/binding-linux-arm64-musl@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-ppc64-gnu@11.6.0':
+  '@oxc-resolver/binding-linux-ppc64-gnu@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-riscv64-gnu@11.6.0':
+  '@oxc-resolver/binding-linux-riscv64-gnu@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-riscv64-musl@11.6.0':
+  '@oxc-resolver/binding-linux-riscv64-musl@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-s390x-gnu@11.6.0':
+  '@oxc-resolver/binding-linux-s390x-gnu@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-x64-gnu@11.6.0':
+  '@oxc-resolver/binding-linux-x64-gnu@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-linux-x64-musl@11.6.0':
+  '@oxc-resolver/binding-linux-x64-musl@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-wasm32-wasi@11.6.0':
+  '@oxc-resolver/binding-wasm32-wasi@11.6.2':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.0.1
+      '@napi-rs/wasm-runtime': 1.0.3
     optional: true
 
-  '@oxc-resolver/binding-win32-arm64-msvc@11.6.0':
+  '@oxc-resolver/binding-win32-arm64-msvc@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-win32-ia32-msvc@11.6.0':
+  '@oxc-resolver/binding-win32-ia32-msvc@11.6.2':
     optional: true
 
-  '@oxc-resolver/binding-win32-x64-msvc@11.6.0':
+  '@oxc-resolver/binding-win32-x64-msvc@11.6.2':
     optional: true
 
   '@pkgr/core@0.2.9': {}
@@ -2213,13 +2209,13 @@ snapshots:
 
   '@solidity-parser/parser@0.20.1': {}
 
-  '@solidstate/contracts@1.0.0-next.0': {}
+  '@solidstate/contracts@1.0.0-next.1': {}
 
-  '@solidstate/hardhat-accounts@2.0.0-next.0(@nomicfoundation/hardhat-utils@3.0.0-next.29)(ethers@6.15.0)(hardhat@3.0.0-next.29)(viem@2.30.1(typescript@5.9.2)(zod@3.25.74))':
+  '@solidstate/hardhat-accounts@2.0.0(@nomicfoundation/hardhat-utils@3.0.0)(ethers@6.15.0)(hardhat@3.0.1)(viem@2.30.1(typescript@5.9.2)(zod@3.25.74))':
     dependencies:
-      '@solidstate/hardhat-solidstate-utils': 1.0.0-next.3(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)
-      chalk: 5.4.1
-      hardhat: 3.0.0-next.29
+      '@solidstate/hardhat-solidstate-utils': 1.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)
+      chalk: 5.5.0
+      hardhat: 3.0.1
     optionalDependencies:
       ethers: 6.15.0
       viem: 2.30.1(typescript@5.9.2)(zod@3.25.74)
@@ -2227,45 +2223,46 @@ snapshots:
       - '@nomicfoundation/hardhat-utils'
       - debug
 
-  '@solidstate/hardhat-contract-sizer@3.0.0-next.1(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)':
+  '@solidstate/hardhat-contract-sizer@3.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)':
     dependencies:
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
-      '@solidstate/hardhat-git': 1.0.0-next.5(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)
-      '@solidstate/hardhat-solidstate-utils': 1.0.0-next.3(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)
-      chalk: 5.4.1
-      hardhat: 3.0.0-next.29
+      '@nomicfoundation/hardhat-utils': 3.0.0
+      '@solidstate/hardhat-git': 1.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)
+      '@solidstate/hardhat-solidstate-utils': 1.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)
+      chalk: 5.5.0
+      hardhat: 3.0.1
     transitivePeerDependencies:
       - debug
       - supports-color
 
-  '@solidstate/hardhat-git@1.0.0-next.5(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)':
+  '@solidstate/hardhat-git@1.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)':
     dependencies:
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
-      chalk: 5.4.1
-      cli-table3: 0.6.5
+      '@nomicfoundation/hardhat-utils': 3.0.0
+      '@solidstate/hardhat-solidstate-utils': 1.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)
+      chalk: 5.5.0
       env-paths: 3.0.0
-      hardhat: 3.0.0-next.29
+      hardhat: 3.0.1
       package-manager-detector: 1.3.0
       simple-git: 3.28.0
     transitivePeerDependencies:
+      - debug
       - supports-color
 
-  '@solidstate/hardhat-license-identifier@3.0.0-next.1(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)':
+  '@solidstate/hardhat-license-identifier@3.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)':
     dependencies:
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
-      '@solidstate/hardhat-solidstate-utils': 1.0.0-next.3(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)
-      hardhat: 3.0.0-next.29
+      '@nomicfoundation/hardhat-utils': 3.0.0
+      '@solidstate/hardhat-solidstate-utils': 1.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)
+      hardhat: 3.0.1
     transitivePeerDependencies:
       - debug
 
-  '@solidstate/hardhat-solidstate-utils@1.0.0-next.3(@nomicfoundation/hardhat-utils@3.0.0-next.29)(hardhat@3.0.0-next.29)':
+  '@solidstate/hardhat-solidstate-utils@1.0.0(@nomicfoundation/hardhat-utils@3.0.0)(hardhat@3.0.1)':
     dependencies:
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
-      axios: 1.10.0
-      chalk: 5.4.1
+      '@nomicfoundation/hardhat-utils': 3.0.0
+      axios: 1.11.0
+      chalk: 5.5.0
       cli-table3: 0.6.5
       env-paths: 3.0.0
-      hardhat: 3.0.0-next.29
+      hardhat: 3.0.1
       semver: 7.7.2
     transitivePeerDependencies:
       - debug
@@ -2319,7 +2316,7 @@ snapshots:
     dependencies:
       undici-types: 6.19.8
 
-  '@types/node@24.2.1':
+  '@types/node@24.3.0':
     dependencies:
       undici-types: 7.10.0
 
@@ -2365,10 +2362,10 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  axios@1.10.0:
+  axios@1.11.0:
     dependencies:
       follow-redirects: 1.15.9
-      form-data: 4.0.3
+      form-data: 4.0.4
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -2397,12 +2394,12 @@ snapshots:
 
   cbor2@1.12.0: {}
 
-  chai-as-promised@8.0.1(chai@5.2.1):
+  chai-as-promised@8.0.1(chai@5.3.3):
     dependencies:
-      chai: 5.2.1
+      chai: 5.3.3
       check-error: 2.1.1
 
-  chai@5.2.1:
+  chai@5.3.3:
     dependencies:
       assertion-error: 2.0.1
       check-error: 2.1.1
@@ -2420,8 +2417,6 @@ snapshots:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
-
-  chalk@5.4.1: {}
 
   chalk@5.5.0: {}
 
@@ -2625,7 +2620,7 @@ snapshots:
 
   follow-redirects@1.15.9: {}
 
-  form-data@4.0.3:
+  form-data@4.0.4:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
@@ -2633,7 +2628,7 @@ snapshots:
       hasown: 2.0.2
       mime-types: 2.1.35
 
-  formatly@0.2.4:
+  formatly@0.3.0:
     dependencies:
       fd-package-json: 2.0.0
 
@@ -2693,16 +2688,16 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  hardhat@3.0.0-next.29:
+  hardhat@3.0.1:
     dependencies:
       '@nomicfoundation/edr': 0.12.0-next.4
-      '@nomicfoundation/hardhat-errors': 3.0.0-next.29
-      '@nomicfoundation/hardhat-utils': 3.0.0-next.29
-      '@nomicfoundation/hardhat-zod-utils': 3.0.0-next.29(zod@3.25.74)
+      '@nomicfoundation/hardhat-errors': 3.0.0
+      '@nomicfoundation/hardhat-utils': 3.0.0
+      '@nomicfoundation/hardhat-zod-utils': 3.0.0(zod@3.25.74)
       '@nomicfoundation/solidity-analyzer': 0.1.2
       '@sentry/core': 9.43.0
       adm-zip: 0.4.16
-      chalk: 5.4.1
+      chalk: 5.5.0
       debug: 4.4.1
       enquirer: 2.4.1
       ethereum-cryptography: 2.2.1
@@ -2795,16 +2790,16 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  knip@5.62.0(@types/node@24.2.1)(typescript@5.9.2):
+  knip@5.63.0(@types/node@24.3.0)(typescript@5.9.2):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
-      '@types/node': 24.2.1
+      '@types/node': 24.3.0
       fast-glob: 3.3.3
-      formatly: 0.2.4
+      formatly: 0.3.0
       jiti: 2.5.1
       js-yaml: 4.1.0
       minimist: 1.2.8
-      oxc-resolver: 11.6.0
+      oxc-resolver: 11.6.2
       picocolors: 1.1.1
       picomatch: 4.0.2
       smol-toml: 1.4.1
@@ -2922,29 +2917,29 @@ snapshots:
       - zod
     optional: true
 
-  oxc-resolver@11.6.0:
+  oxc-resolver@11.6.2:
     dependencies:
       napi-postinstall: 0.3.2
     optionalDependencies:
-      '@oxc-resolver/binding-android-arm-eabi': 11.6.0
-      '@oxc-resolver/binding-android-arm64': 11.6.0
-      '@oxc-resolver/binding-darwin-arm64': 11.6.0
-      '@oxc-resolver/binding-darwin-x64': 11.6.0
-      '@oxc-resolver/binding-freebsd-x64': 11.6.0
-      '@oxc-resolver/binding-linux-arm-gnueabihf': 11.6.0
-      '@oxc-resolver/binding-linux-arm-musleabihf': 11.6.0
-      '@oxc-resolver/binding-linux-arm64-gnu': 11.6.0
-      '@oxc-resolver/binding-linux-arm64-musl': 11.6.0
-      '@oxc-resolver/binding-linux-ppc64-gnu': 11.6.0
-      '@oxc-resolver/binding-linux-riscv64-gnu': 11.6.0
-      '@oxc-resolver/binding-linux-riscv64-musl': 11.6.0
-      '@oxc-resolver/binding-linux-s390x-gnu': 11.6.0
-      '@oxc-resolver/binding-linux-x64-gnu': 11.6.0
-      '@oxc-resolver/binding-linux-x64-musl': 11.6.0
-      '@oxc-resolver/binding-wasm32-wasi': 11.6.0
-      '@oxc-resolver/binding-win32-arm64-msvc': 11.6.0
-      '@oxc-resolver/binding-win32-ia32-msvc': 11.6.0
-      '@oxc-resolver/binding-win32-x64-msvc': 11.6.0
+      '@oxc-resolver/binding-android-arm-eabi': 11.6.2
+      '@oxc-resolver/binding-android-arm64': 11.6.2
+      '@oxc-resolver/binding-darwin-arm64': 11.6.2
+      '@oxc-resolver/binding-darwin-x64': 11.6.2
+      '@oxc-resolver/binding-freebsd-x64': 11.6.2
+      '@oxc-resolver/binding-linux-arm-gnueabihf': 11.6.2
+      '@oxc-resolver/binding-linux-arm-musleabihf': 11.6.2
+      '@oxc-resolver/binding-linux-arm64-gnu': 11.6.2
+      '@oxc-resolver/binding-linux-arm64-musl': 11.6.2
+      '@oxc-resolver/binding-linux-ppc64-gnu': 11.6.2
+      '@oxc-resolver/binding-linux-riscv64-gnu': 11.6.2
+      '@oxc-resolver/binding-linux-riscv64-musl': 11.6.2
+      '@oxc-resolver/binding-linux-s390x-gnu': 11.6.2
+      '@oxc-resolver/binding-linux-x64-gnu': 11.6.2
+      '@oxc-resolver/binding-linux-x64-musl': 11.6.2
+      '@oxc-resolver/binding-wasm32-wasi': 11.6.2
+      '@oxc-resolver/binding-win32-arm64-msvc': 11.6.2
+      '@oxc-resolver/binding-win32-ia32-msvc': 11.6.2
+      '@oxc-resolver/binding-win32-x64-msvc': 11.6.2
 
   p-map@7.0.3: {}
 
