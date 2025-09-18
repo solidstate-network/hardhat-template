@@ -25,6 +25,7 @@
     "@nomicfoundation/hardhat-ethers-chai-matchers": "^3.0.0",
     "@nomicfoundation/hardhat-typechain": "^3.0.0",
     "@nomicfoundation/hardhat-verify": "^3.0.0",
+    "@slippy-lint/slippy": "^0.1.3",
     "@solidstate/contracts": "^1.0.0-next.1",
     "@solidstate/hardhat-accounts": "^2.0.0",
     "@solidstate/hardhat-contract-sizer": "^3.0.0",
