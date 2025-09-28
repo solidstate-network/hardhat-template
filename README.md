@@ -33,7 +33,6 @@ The Hardhat environment relies on the following environment variables. The `dote
 | `NODE_URL_TESTNET`  | JSON-RPC node URL for `testnet` network                                  |
 | `PKEY_TESTNET`      | private key for test/development use on `testnet` network                |
 | `PKEY_MAINNET`      | private key for production use on `mainnet` network                      |
-| `REPORT_GAS`        | if `true`, a gas report will be generated after running tests            |
 
 ### Networks
 
