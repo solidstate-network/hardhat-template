@@ -20,9 +20,6 @@ importers:
       '@nomicfoundation/hardhat-verify':
         specifier: ^3.0.2
         version: 3.0.2(hardhat@3.0.6)
-      '@slippy-lint/slippy':
-        specifier: ^0.1.3
-        version: 0.1.3
       '@solidstate/contracts':
         specifier: ^1.0.0-next.2
         version: 1.0.0-next.2
@@ -83,6 +80,9 @@ importers:
       prettier-plugin-solidity:
         specifier: ^2.1.0
         version: 2.1.0(prettier@3.6.2)
+      slippy:
+        specifier: ^0.3.0
+        version: 0.3.0
       typechain:
         specifier: ^8.3.2
         version: 8.3.2(typescript@5.9.2)
@@ -520,8 +520,8 @@ packages:
   '@nomicfoundation/slang@1.2.0':
     resolution: {integrity: sha512-+04Z1RHbbz0ldDbHKQFOzveCdI9Rd3TZZu7fno5hHy3OsqTo9UK5Jgqo68wMvRovCO99POv6oCEyO7+urGeN8Q==}
 
-  '@nomicfoundation/slang@1.2.1':
-    resolution: {integrity: sha512-XQirzqDGxMnhOZtGPRLdc1F6UymU0N/lhXUcWsf6bqy29Pq+g6ougvbSTTCTXjgWXjBp6zQ1gaJmzWmMBvMgOw==}
+  '@nomicfoundation/slang@1.3.0':
+    resolution: {integrity: sha512-2PcwCF5cX2UjGi9cHd7E6XtLDaoyEVOTYt8WtOJ7GVpa68b+/sX0uFkb5/S67vxJb8eaVVFd2u6MTSVmE84QsQ==}
 
   '@nomicfoundation/solidity-analyzer-darwin-arm64@0.1.2':
     resolution: {integrity: sha512-JaqcWPDZENCvm++lFFGjrDd8mxtf+CtLd2MiXvMNTBD33dContTZ9TWETwNFwg7JTJT5Q9HEecH7FA+HTSsIUw==}
@@ -682,10 +682,6 @@ packages:
   '@sindresorhus/merge-streams@4.0.0':
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
-
-  '@slippy-lint/slippy@0.1.3':
-    resolution: {integrity: sha512-bhUt1xTUMHRcvEdJGBYyzR66/ozyFHAEtGpOh3uL2v+f3GOIkt/LBU/X06VqA6N+Lf+B5zODZ1oN+XZPX7UjGQ==}
-    hasBin: true
 
   '@solidity-parser/parser@0.20.1':
     resolution: {integrity: sha512-58I2sRpzaQUN+jJmWbHfbWf9AKfzqCI8JAdFB0vbyY+u8tBRcuTt9LxzasvR0LGQpcRv97eyV7l61FQ3Ib7zVw==}
@@ -951,6 +947,15 @@ packages:
 
   debug@4.4.1:
     resolution: {integrity: sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
+  debug@4.4.3:
+    resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1487,6 +1492,10 @@ packages:
 
   simple-git@3.28.0:
     resolution: {integrity: sha512-Rs/vQRwsn1ILH1oBUy8NucJlXmnnLeLCfcvbSehkPzbv3wwoFWIdtfd6Ndo6ZPhlPsCZ60CPI4rxurnwAa+a2w==}
+
+  slippy@0.3.0:
+    resolution: {integrity: sha512-OtVm7Xa4iA4UWmYO7f27CAfyp/UBCQKFSIKOOVrD6md9xqKrZpjCZzEg8X+BSeVxn0XYEYvELeLEBoU6+cDOqg==}
+    hasBin: true
 
   smol-toml@1.4.2:
     resolution: {integrity: sha512-rInDH6lCNiEyn3+hH8KVGFdbjc099j47+OSgbMrfDYX1CmXLfdKd7qi6IfcWj2wFxvSVkuI46M+wPGYfEOEj6g==}
@@ -2169,7 +2178,7 @@ snapshots:
     dependencies:
       '@bytecodealliance/preview2-shim': 0.17.2
 
-  '@nomicfoundation/slang@1.2.1':
+  '@nomicfoundation/slang@1.3.0':
     dependencies:
       '@bytecodealliance/preview2-shim': 0.17.2
 
@@ -2299,17 +2308,6 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@slippy-lint/slippy@0.1.3':
-    dependencies:
-      '@nomicfoundation/slang': 1.2.1
-      chalk: 5.5.0
-      fast-glob: 3.3.3
-      micromatch: 4.0.8
-      minimist: 1.2.8
-      semver: 7.7.2
-      workerpool: 9.3.4
-      zod: 4.1.9
-
   '@solidity-parser/parser@0.20.1': {}
 
   '@solidstate/contracts@1.0.0-next.2': {}
@@ -2341,7 +2339,7 @@ snapshots:
     dependencies:
       '@nomicfoundation/hardhat-utils': 3.0.2
       '@solidstate/hardhat-solidstate-utils': 1.0.0(@nomicfoundation/hardhat-utils@3.0.2)(hardhat@3.0.6)
-      chalk: 5.5.0
+      chalk: 5.6.2
       env-paths: 3.0.0
       hardhat: 3.0.6
       package-manager-detector: 1.3.0
@@ -2363,7 +2361,7 @@ snapshots:
     dependencies:
       '@nomicfoundation/hardhat-utils': 3.0.2
       axios: 1.11.0
-      chalk: 5.5.0
+      chalk: 5.6.2
       cli-table3: 0.6.5
       env-paths: 3.0.0
       hardhat: 3.0.6
@@ -2578,6 +2576,10 @@ snapshots:
       which: 2.0.2
 
   debug@4.4.1:
+    dependencies:
+      ms: 2.1.3
+
+  debug@4.4.3:
     dependencies:
       ms: 2.1.3
 
@@ -3147,6 +3149,20 @@ snapshots:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
       debug: 4.4.1
+    transitivePeerDependencies:
+      - supports-color
+
+  slippy@0.3.0:
+    dependencies:
+      '@nomicfoundation/slang': 1.3.0
+      chalk: 5.6.2
+      debug: 4.4.3
+      fast-glob: 3.3.3
+      micromatch: 4.0.8
+      minimist: 1.2.8
+      semver: 7.7.2
+      workerpool: 9.3.4
+      zod: 4.1.9
     transitivePeerDependencies:
       - supports-color
 
