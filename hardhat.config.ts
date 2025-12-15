@@ -1,7 +1,4 @@
-import HardhatEthers from '@nomicfoundation/hardhat-ethers';
-import HardhatEthersChaiMatchers from '@nomicfoundation/hardhat-ethers-chai-matchers';
-import HardhatTypechain from '@nomicfoundation/hardhat-typechain';
-import HardhatVerify from '@nomicfoundation/hardhat-verify';
+import hardhatToolboxMochaEthers from '@nomicfoundation/hardhat-toolbox-mocha-ethers';
 import HardhatAccounts from '@solidstate/hardhat-accounts';
 import HardhatContractSizer from '@solidstate/hardhat-contract-sizer';
 import HardhatLicenseIdentifier from '@solidstate/hardhat-license-identifier';
@@ -12,10 +9,7 @@ Dotenv.config();
 
 const config: HardhatUserConfig = {
   plugins: [
-    HardhatEthers,
-    HardhatEthersChaiMatchers,
-    HardhatTypechain,
-    HardhatVerify,
+    hardhatToolboxMochaEthers,
     HardhatAccounts,
     HardhatContractSizer,
     HardhatLicenseIdentifier,
