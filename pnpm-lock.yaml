@@ -2405,9 +2405,9 @@ snapshots:
 
   '@nomicfoundation/hardhat-ethers@4.0.3(hardhat@3.1.0)':
     dependencies:
-      '@nomicfoundation/hardhat-errors': 3.0.2
+      '@nomicfoundation/hardhat-errors': 3.0.6
       '@nomicfoundation/hardhat-utils': 3.0.5
-      debug: 4.4.1
+      debug: 4.4.3(supports-color@8.1.1)
       ethereum-cryptography: 2.2.1
       ethers: 6.16.0
       hardhat: 3.1.0
@@ -2499,12 +2499,12 @@ snapshots:
 
   '@nomicfoundation/hardhat-typechain@3.0.1(@nomicfoundation/hardhat-ethers@4.0.3(hardhat@3.1.0))(ethers@6.16.0)(hardhat@3.1.0)(typescript@5.9.3)':
     dependencies:
-      '@nomicfoundation/hardhat-errors': 3.0.2
+      '@nomicfoundation/hardhat-errors': 3.0.6
       '@nomicfoundation/hardhat-ethers': 4.0.3(hardhat@3.1.0)
       '@nomicfoundation/hardhat-utils': 3.0.5
       '@nomicfoundation/hardhat-zod-utils': 3.0.1(zod@3.25.74)
       '@typechain/ethers-v6': 0.5.1(ethers@6.16.0)(typechain@8.3.2(typescript@5.9.3))(typescript@5.9.3)
-      debug: 4.4.1
+      debug: 4.4.3(supports-color@8.1.1)
       ethers: 6.16.0
       hardhat: 3.1.0
       typechain: 8.3.2(typescript@5.9.3)
@@ -2534,9 +2534,9 @@ snapshots:
       '@nomicfoundation/hardhat-zod-utils': 3.0.1(zod@3.25.74)
       cbor2: 1.12.0
       chalk: 5.6.2
-      debug: 4.4.1
+      debug: 4.4.3(supports-color@8.1.1)
       hardhat: 3.1.0
-      semver: 7.7.2
+      semver: 7.7.3
       zod: 3.25.74
     transitivePeerDependencies:
       - supports-color
