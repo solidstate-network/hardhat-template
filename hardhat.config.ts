@@ -1,7 +1,7 @@
 import hardhatToolboxMochaEthers from '@nomicfoundation/hardhat-toolbox-mocha-ethers';
-import HardhatAccounts from '@solidstate/hardhat-accounts';
-import HardhatContractSizer from '@solidstate/hardhat-contract-sizer';
-import HardhatLicenseIdentifier from '@solidstate/hardhat-license-identifier';
+import hardhatAccounts from '@solidstate/hardhat-accounts';
+import hardhatContractSizer from '@solidstate/hardhat-contract-sizer';
+import hardhatLicenseIdentifier from '@solidstate/hardhat-license-identifier';
 import Dotenv from 'dotenv';
 import { configVariable, type HardhatUserConfig } from 'hardhat/config';
 
@@ -10,9 +10,9 @@ Dotenv.config();
 const config: HardhatUserConfig = {
   plugins: [
     hardhatToolboxMochaEthers,
-    HardhatAccounts,
-    HardhatContractSizer,
-    HardhatLicenseIdentifier,
+    hardhatAccounts,
+    hardhatContractSizer,
+    hardhatLicenseIdentifier,
   ],
 
   solidity: {
